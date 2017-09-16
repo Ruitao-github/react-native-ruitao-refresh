@@ -1,0 +1,23 @@
+{
+  "name": "react-native-ruitao-refresh",
+  "version": "1.0.0",
+  "description": "pull to refresh and pull to loadmore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruitao-github/react-native-ruitao-refresh.git"
+  },
+  "keywords": [
+    "refresh",
+    "react-native"
+  ],
+  "author": "ruitao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ruitao-github/react-native-ruitao-refresh/issues"
+  },
+  "homepage": "https://github.com/Ruitao-github/react-native-ruitao-refresh#readme"
+}
