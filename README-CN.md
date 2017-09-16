@@ -4,45 +4,6 @@
 
 ## 功能介绍
 
-### 使用
-
-- `npm i react-native-ruitao-refresh --save`
-```js
-import Refresh from 'react-native-ruitao-refresh'
-
-...
-
-_onRefresh(callback){
-    // 这里去刷新数据, 刷新成功后去执行callback
-    callback()
-}
-
-_onLoadMore(callback){
-    // 这里去加载数据, 加载完成后执行callback
-    callback()
-}
-
-render(){
-    return (
-        <View style={{flex:1}}>
-            <Refresh 
-            pullHeight={50}
-            loadMoreHeight={50}
-            autoLoadMore={false}
-            dataSource={this.state.dataSource}
-            onRefresh={this._onRefresh.bind(this)}
-            onLoadMore={this._onLoadMore.bind(this)}
-            renderRow={(item) => (
-                <View style={{height:50,borderWidth:1,borderColor:'#f00'}}>
-                    <Text>{item}</Text>
-                </View>
-            )}
-            />
-        </View>
-    )
-}
-```
-
 ### 下拉刷新
 
 #### 属性
