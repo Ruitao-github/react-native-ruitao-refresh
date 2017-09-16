@@ -1,6 +1,6 @@
 {
   "name": "react-native-ruitao-refresh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pull to refresh and pull to loadmore",
   "main": "index.js",
   "scripts": {
